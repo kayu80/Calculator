@@ -1,7 +1,13 @@
-currency:
-  available:
-    - "RUB"
-cost:
-  rub:
-    perKg: 400
-    minimal: 350
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: user
+    password: secret
+
+logging:
+  level:
+    root: INFO
+    ru.fastdelivery: DEBUG
